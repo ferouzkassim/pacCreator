@@ -8,7 +8,12 @@ files = os.listdir(workdir)
 
 root.config(height=400,width=600)
 root.maxsize(height=600,width=800)
-
+def xml_parser():
+    with open('sample.tdf','r') as Xml:
+        Xml.readable()
+        Xml.read()
+        print(Xml.read())
+xml_parser()
 def createCfg():
     cpu_name = input('enter cpu: loader  ')
     while os.path.exists(f'{workdir}/newflasher.cfg') :
@@ -51,4 +56,4 @@ def createCfg():
 
 #createCfg()
 
-root.mainloop()
+#root.mainloop()
