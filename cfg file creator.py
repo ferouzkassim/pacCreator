@@ -32,10 +32,16 @@ def createCfg():
         print('file exists')
 
     for file in files:
-        if file.endswith('.bin'):
-         with open("newflash.cfg",'a') as cfg:
-           cfg.write(f'\n 1@{file}')
-           cfg.close()
+        binfiles=[]
+
+        with open("newflash.cfg",'a') as cfg:
+            if file.endswith('.bin'):
+                binfiles.append(file)
+
+                cfg.write(f'\n{binfiles} = 1@{file}')
+            else:
+                pass
+            cfg.close()
 
 createCfg()
 
