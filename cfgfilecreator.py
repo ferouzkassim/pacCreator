@@ -1,13 +1,11 @@
 import os
-import tkinter as tk
-root = tk.Tk()
+
 workdir = os.getcwd()
 
 
 files = os.listdir(workdir)
 
-root.config(height=400,width=600)
-root.maxsize(height=600,width=800)
+
 def xml_parser():
     with open('sample.tdf','r') as Xml:
         Xml.readable()
@@ -56,4 +54,3 @@ def createCfg():
 
 #createCfg()
 
-#root.mainloop()
