@@ -1,11 +1,16 @@
 import os
+import tkinter as tk
+root = tk.Tk()
 workdir = os.getcwd()
-cpu_name = input('enter cpu: loader  ')
+
 
 files = os.listdir(workdir)
 
+root.config(height=400,width=600)
+root.maxsize(height=600,width=800)
 
 def createCfg():
+    cpu_name = input('enter cpu: loader  ')
     while os.path.exists(f'{workdir}/newflasher.cfg') :
      print('file exists')
      os.remove(workdir.find('/newflash,cfg'))
@@ -37,11 +42,13 @@ def createCfg():
         with open("newflash.cfg",'a') as cfg:
             if file.endswith('.bin'):
                 binfiles.append(file)
+                for singe_bin_file in binfiles:
 
-                cfg.write(f'\n{binfiles} = 1@{file}')
+                  cfg.write(f'\n{singe_bin_file} = 1@{file}')
             else:
                 pass
             cfg.close()
 
-createCfg()
+#createCfg()
 
+root.mainloop()
