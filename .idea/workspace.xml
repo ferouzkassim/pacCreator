@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7edfb1-3c92-467d-b301-3b666c90335b" name="Changes" comment="adding gui">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="ef7edfb1-3c92-467d-b301-3b666c90335b" name="Changes" comment="adding gui seprated gi frmo paccreTOR">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cfg file creator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newflash.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/newflash.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +42,17 @@
 }</component>
   <component name="RunManager">
     <configuration name="cfg file creator" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pacCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\DROID\PycharmProjects\YouDroidTool\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\DROID\AppData\Local\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cfg file creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674898488086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding gui seprated gi frmo paccreTOR">
+      <created>1674942184773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674942184773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding gui" />
+    <MESSAGE value="adding gui seprated gi frmo paccreTOR" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gui seprated gi frmo paccreTOR" />
   </component>
 </project>
